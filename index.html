@@ -1,15 +1,30 @@
 <!DOCTYPE html>
 <html>
-<head>  
-<title>Curriculum vitae</title>
+<head>
+<title>Curriculum Vitae</title>
 <meta charset="utf-8">
+<style>
+    table,thead,td{
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+</style>
 </head> 
 <body>
 <!--Note personelle pour expliquer le code--> 
-<h1>Curriculum Vitae:BAGNOLOK TCHATCHOUA Ludwig Van Bruno</h1>
-<hr>    
+<h1>Curriculum Vitae</h1>
+<img src="/images/selfie.jpg" alt="photo CV" width="160" height="220">   
 <!-- Raccourci pour commentaires cmd+shift+ / -->
 <!-- Ordonné : Étapes -->
+<br>
+<br>
+<u>Noms</u>:BAGNOLOK TCHATCHOUA
+<br>
+<u>Prénoms</u>: Ludwig Van Bruno
+<br>
+<u>Date de naissance</u>:19/07/1997
+<br>
+<u>Lieu de naissance</u>:Yaoundé-Cameroun
 <h2>Profil Professionnel</h2> <a href="#liens">Contacts-Ressources PDF</a>
 <p>Controleur commercial appliqué débutant dans le métier, mais assidu et toujours à la recherche d'une amélioration continue, Biologiste médical et à ceci s'ajoute une compétence en développement Web full-stack en gestation. </p>
 <hr>
@@ -39,11 +54,57 @@
 <dd>Stage Professionnel d'une durée de 06 mois réparti sur deux secteurs d'activité</dd>
 </dl>
 <hr>
-    <!-- Non ordonée : Organes -->
+<h2>Diplômes et Formations</h2>
+<table>
+    <thead>
+        <tr>
+       <td><b>Année/Durée</b></td>
+        <td><b>Établissement/Structure</b></td>
+        <td><b>Diplôme</b></td>    
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>2015</td>
+            <td>Institut Supérieur de Technologie Médicale</td>
+            <td>Licence en Sciences Biomédicales</td>
+            <tr>
+            <td>2017</td>
+            <td>Université Protestante d'Afrique Centrale</td>
+            <td>1ère Année Master en Biologie Médicale</td>    
+            </tr>
+            <tr>
+             <td>02 mois</td>
+             <td>CMT</td>
+             <td>Stage Professionnel en Agence Commerciale</td>   
+            </tr>
+            <tr>
+             <td>04 mois</td>
+             <td>CMT</td>
+             <td>Stage Professionnel au Service Santé</td>   
+            </tr>
+
+        </tr>
+    </tbody>
+</table>
+<hr>
+<form>
+    <h2>Formulaire de renseignements</h2>
+<label>Noms: <input type="text" value="Entrez votre nom"></label>
+<br>
+<br>
+<label>Prénoms: <input type="text" value="Entrez votre prénom"></label>
+<br>
+<br>
+<label>Contact: <input type="number"></label><br>
+<br>
+<input type="submit" value="Envoyer">
+<input type="reset" value="Réinitialiser">
+</form>
+<hr>
 <ul>
     <!-- Pour mettre un lien on utilise la balise a on peut y ajouter des liens directements -->
     <a id="liens" href ="contact.html">Me contacter</a>
-    <br>
     <br>
     <br>
     <a href="pages/Profil.html">PDFs</a>
